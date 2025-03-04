@@ -69,7 +69,7 @@ function pojo_polylang_get_multilang_logo( $value ) {
 		$current_lang = pll_current_language();
 		$assets_url = get_stylesheet_directory_uri() . '/assets/images/';
 		if ( isset( $logos[ $current_lang ] ) )
-			$value = '<a href="/'. $current_lang .'"><img width="220px" decoding="async" src="' . $assets_url . $logos[ $current_lang ] . '"/></a>';
+			$value = '<a href="/'. $current_lang .'"><img class="top-logo" decoding="async" src="' . $assets_url . $logos[ $current_lang ] . '"/></a>';
 		else
 			$value = $assets_url . $default_logo;
 	}

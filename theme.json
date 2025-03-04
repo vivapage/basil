@@ -81,6 +81,11 @@
 					"color": "#965EA1",
 					"name": "French Lilac",
 					"slug": "french-lilac"
+				},
+				{
+					"color": "#87C548",
+					"name": "Light Green",
+					"slug": "light-green"
 				}
 			]
 		},
@@ -99,6 +104,9 @@
 			]
 		},
 		"typography": {
+			"fluid": true,
+			"defaultFontSizes": false,
+			"customFontSize": true,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -148,7 +156,33 @@
 					"slug": "wix-madefor-display"
 				}
 			],
-			"fontSizes": []
+			"fontSizes": [
+				{
+				"slug": "extra-small",
+				"size": "1rem",
+				"name": "Extra small"
+			},
+			{
+				"slug": "small",
+				"size": "1.125rem",
+				"name": "Small"
+			},
+			{
+				"slug": "medium",
+				"size": "1.25rem",
+				"name": "Medium"
+			},
+			{
+				"slug": "large",
+				"size": "1.5rem",
+				"name": "Large"
+			},
+			{
+				"slug": "extra-large",
+				"size": "2rem",
+				"name": "Extra large"
+			}
+			]
 		},
 		"useRootPaddingAwareAlignments": true
 	},
@@ -194,6 +228,7 @@
 			}
 		},
 		"typography": {
+			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontFamily": "var(--wp--preset--font-family--wix-madefor-display)"
 		}
 	},
