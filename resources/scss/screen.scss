@@ -1,0 +1,30 @@
+* {
+    color: #404040;
+}
+a {
+    color: #888;
+}
+
+
+span.wp-block-navigation-item__label {
+    color: #fff !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+    }
+
+a:hover.wp-block-navigation-item__content span.wp-block-navigation-item__label {
+    color: #000 !important;
+}
+
+.wp-block-navigation .wp-block-navigation-item {
+     margin-left: 3rem !important;
+ }
+.lang-item-uk.wp-block-polylang-navigation-language-switcher.wp-block-navigation-link {
+    margin-left: 0 !important;
+ }
+.lang-item-en a {
+    ::after {
+        content: ' | ';
+        margin-right: .2rem;
+    }
+}
