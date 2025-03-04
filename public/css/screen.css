@@ -32,4 +32,11 @@ a:hover.wp-block-navigation-item__content span.wp-block-navigation-item__label {
   margin-right: 0.2rem;
 }
 
+.wc-block-mini-cart__quantity-badge {
+  background-color: #fff;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=screen.css.map*/

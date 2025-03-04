@@ -12,10 +12,35 @@ a {
 span.wp-block-navigation-item__label {
   color: #fff !important;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.wp-block-navigation-item .wp-block-navigation-link {
-  margin-left: 5rem;
+a:hover.wp-block-navigation-item__content span.wp-block-navigation-item__label {
+  color: #000 !important;
+}
+
+.wp-block-navigation .wp-block-navigation-item {
+  margin-left: 3rem !important;
+}
+
+.lang-item-uk.wp-block-polylang-navigation-language-switcher.wp-block-navigation-link {
+  margin-left: 0 !important;
+}
+
+.lang-item-en a ::after {
+  content: " | ";
+  margin-right: 0.2rem;
+}
+
+.wc-block-mini-cart__quantity-badge {
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
 }
 
 /*# sourceMappingURL=screen.css.map*/
