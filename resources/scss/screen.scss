@@ -8,7 +8,7 @@ a {
 
 span.wp-block-navigation-item__label {
     color: #fff !important;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     }
 
@@ -42,7 +42,7 @@ a:hover.wp-block-navigation-item__content span.wp-block-navigation-item__label {
 
 .footer-menu a {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     margin-right: 1rem;
     text-decoration: none;
@@ -52,9 +52,16 @@ a:hover.wp-block-navigation-item__content span.wp-block-navigation-item__label {
     background-color: #5CB3FF !important;
 }
 img.top-logo{
-    width: 200px;
+    width: 150px;
     height: auto;
 }
+
+
+button.wp-block-navigation__responsive-container-open svg {
+    width: 2.3rem;
+    height: 100%;
+}
+
 @media screen and (max-width: 600px) {
     img.top-logo{
         width: 150px;

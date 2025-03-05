@@ -12,7 +12,7 @@
 					"slug": "blue-yellow"
 				},
 				{
-					"gradient": "linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 100%)",
+					"gradient": "linear-gradient(90deg, rgba(92, 179, 255, 1) 0%, rgba(239, 236, 54, 1) 100%)",
 					"slug": "blue-red"
 				}
 			],
@@ -240,6 +240,10 @@
 		{
 			"area": "footer",
 			"name": "footer"
+		},
+		{
+			"area": "hero",
+			"name": "hero"
 		}
 	],
 	"version": 3,
