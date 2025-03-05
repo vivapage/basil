@@ -65,11 +65,15 @@ function pojo_polylang_get_multilang_logo( $value ) {
 			'en' => 'logo-en.svg',
 			'uk' => 'logo-uk.svg',
 		);
+		$url = array(
+			'en' => '',
+			'uk' => 'uk',
+		);
 		$default_logo = $logos['en'];
 		$current_lang = pll_current_language();
 		$assets_url = get_stylesheet_directory_uri() . '/assets/images/';
 		if ( isset( $logos[ $current_lang ] ) )
-			$value = '<a href="/'. $current_lang .'"><img class="top-logo" decoding="async" src="' . $assets_url . $logos[ $current_lang ] . '"/></a>';
+			$value = '<a href="/'. $url[ $current_lang ] .'"><img class="top-logo" decoding="async" src="' . $assets_url . $logos[ $current_lang ] . '"/></a>';
 		else
 			$value = $assets_url . $default_logo;
 	}

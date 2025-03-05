@@ -1,7 +1,7 @@
 /*!***************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./resources/scss/screen.scss ***!
   \***************************************************************************************************************************************************************************************************************************************************/
-* {
+body {
   color: #404040;
 }
 
@@ -33,14 +33,41 @@ a:hover.wp-block-navigation-item__content span.wp-block-navigation-item__label {
 }
 
 .wc-block-mini-cart__quantity-badge {
-  background-color: #000;
-  color: #fff;
-  font-size: 1rem;
-  padding: 0.2rem 0.5rem;
+  background-color: #fff;
+  color: #F9D820;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 50%;
-  position: absolute;
-  top: -10px;
-  right: -10px;
+}
+
+.wc-block-mini-cart__icon {
+  color: #F0A507 !important;
+}
+
+.footer-menu a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.wp-block-navigation__responsive-container.has-modal-open.is-menu-open {
+  background-color: #5CB3FF !important;
+}
+
+img.top-logo {
+  width: 200px;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  img.top-logo {
+    width: 150px;
+  }
+  .wp-block-site-logo {
+    padding-left: 1rem;
+  }
 }
 
 /*# sourceMappingURL=screen.css.map*/

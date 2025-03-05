@@ -104,9 +104,9 @@
 			]
 		},
 		"typography": {
-			"fluid": true,
-			"defaultFontSizes": false,
 			"customFontSize": true,
+			"defaultFontSizes": false,
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -158,30 +158,30 @@
 			],
 			"fontSizes": [
 				{
-				"slug": "extra-small",
-				"size": "1rem",
-				"name": "Extra small"
-			},
-			{
-				"slug": "small",
-				"size": "1.125rem",
-				"name": "Small"
-			},
-			{
-				"slug": "medium",
-				"size": "1.25rem",
-				"name": "Medium"
-			},
-			{
-				"slug": "large",
-				"size": "1.5rem",
-				"name": "Large"
-			},
-			{
-				"slug": "extra-large",
-				"size": "2rem",
-				"name": "Extra large"
-			}
+					"name": "Extra small",
+					"size": "1rem",
+					"slug": "extra-small"
+				},
+				{
+					"name": "Small",
+					"size": "1.125rem",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "1.25rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "1.5rem",
+					"slug": "large"
+				},
+				{
+					"name": "Extra large",
+					"size": "2rem",
+					"slug": "extra-large"
+				}
 			]
 		},
 		"useRootPaddingAwareAlignments": true
@@ -228,8 +228,8 @@
 			}
 		},
 		"typography": {
-			"fontSize": "var(--wp--preset--font-size--medium)",
-			"fontFamily": "var(--wp--preset--font-family--wix-madefor-display)"
+			"fontFamily": "var(--wp--preset--font-family--wix-madefor-display)",
+			"fontSize": "var(--wp--preset--font-size--medium)"
 		}
 	},
 	"templateParts": [
