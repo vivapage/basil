@@ -74,5 +74,17 @@ button.wp-block-navigation__responsive-container-open svg {
     padding-left: 1rem;
   }
 }
+.price {
+  margin-top: 1rem;
+  text-align: center;
+  color: #F0A507;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.title-book a {
+  color: #000;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=screen.css.map*/
