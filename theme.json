@@ -8,12 +8,14 @@
 			"defaultPalette": false,
 			"gradients": [
 				{
-					"gradient": "linear-gradient(90deg, rgba(90, 134, 255, 1) 0%, rgba(249, 216, 32, 1) 100%)",
+					"name": "Blue Yellow Dark",
+					"gradient": "linear-gradient(90deg, rgba(92, 179, 255, 1) 0%, rgba(239, 236, 54, 1) 100%)",
 					"slug": "blue-yellow"
 				},
 				{
-					"gradient": "linear-gradient(90deg, rgba(92, 179, 255, 1) 0%, rgba(239, 236, 54, 1) 100%)",
-					"slug": "blue-red"
+					"name": "Blue Yellow Light",
+					"gradient": "linear-gradient(90deg, rgba(92, 179, 255, .5) 0%, rgba(239, 236, 54, .5) 100%)",
+					"slug": "blue-yellow-light"
 				}
 			],
 			"palette": [
