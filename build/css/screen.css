@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #888;
+  color: --wp--preset--color--dark-blue;
 }
 
 span.wp-block-navigation-item__label {

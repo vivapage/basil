@@ -225,7 +225,9 @@
 			},
 			"link": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--wix-madefor-display)"
+					"fontFamily": "var(--wp--preset--font-family--wix-madefor-display)",
+					"fontWeight": "600",
+					"textDecoration": "none"
 				}
 			}
 		},
